@@ -1,0 +1,11 @@
+
+view {
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+image {
+  width: 100%;
+}

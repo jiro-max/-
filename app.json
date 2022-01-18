@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#f00",
+    "list": [
+      {
+      "pagePath":  "pages/index/index",
+      "text": "首页",
+      "iconPath": "./汤圆酱/1.jpeg",
+      "selectedIconPath": "./汤圆酱/3.jpeg"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "./汤圆酱/2.jpeg",
+      "selectedIconPath": "./汤圆酱/4.jpeg"
+    }
+  ]
+  }
+}

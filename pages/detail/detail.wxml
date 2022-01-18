@@ -1,0 +1,4 @@
+<view>标题 : {{ detail.title }}</view>
+<view>价格 : {{ detail.price }}</view>
+<view>访问量 : {{ detail.count }}</view>
+<image src="{{ detail.imageSrc }}"></image>
